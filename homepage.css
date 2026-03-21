@@ -1,0 +1,148 @@
+body{
+    background-color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.heading{
+  background-color: green;
+  color:white;
+  text-align: center;
+  height: 100px;
+      /* padding-top: 8px; */
+      padding-bottom: 15px;
+}
+.heading p:nth-child(1){
+    font-size: 30px;
+    margin-bottom: 0%;
+          padding-top: 28px;
+
+}
+.heading p:nth-child(2){
+    font-size: 18px; 
+    margin-top: 12px; 
+}
+.tags{
+    background-color: rgba(112, 113, 113, 0.977);
+   height: 33px;
+   text-align: center;
+   padding-top: 10px;
+   
+}
+.tags a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    padding-top:5px  ;
+    font-size: 20px;
+    /* margin-bottom: 0px; */
+
+}
+.tags a:hover{
+    text-transform: uppercase;
+    background-color: rgb(16, 0, 239);
+    border: 5px solid rgb(4, 17, 199);
+    border-radius: 100px;
+    color:white;
+}
+.about{
+  background-color:rgb(244, 245, 246);
+  padding: 1px 30px;
+  margin:20px 250px;
+  border-radius: 10px;
+  box-shadow: 2px  2px 20px rgb(198, 198, 198);
+}
+.about p:nth-child(1){
+  font-size: 40px;
+  color:rgb(51, 166, 212);
+  margin-bottom: 10px;  
+}
+.about p:nth-child(2){
+  margin-bottom: 25px;  
+  /* margin-left: 20px; */
+  /* padding-left: 20px; */
+}
+.Schedule{
+      background-color:rgb(244, 245, 246);
+  padding: 1px 30px;
+  margin:20px 250px;
+  border-radius: 10px;
+box-shadow: 2px  2px 20px rgb(198, 198, 198);
+}
+.Schedule p{
+   font-size: 40px;
+  color:rgb(51, 166, 212);
+  margin-bottom: 40px; 
+}
+.Schedule table{
+margin-bottom: 40px;
+margin-left:130px;
+width: 700px;
+border:1px solid grey;
+border-radius: 5px;
+box-shadow: 2px  2px 20px rgb(198, 198, 198);
+}
+.Schedule table tr:nth-child(odd){
+background-color: rgb(193, 220, 243);
+}
+/*.Schedule table tr:nth-child(6){
+background-color: rgb(190, 207, 222);
+}*/
+.register{
+      background-color:rgb(249, 251, 251);
+  padding: 1px 30px;
+  margin:20px 250px;
+  border-radius: 10px;
+box-shadow: 2px  2px 20px rgb(198, 198, 198);
+}
+.register p{
+   font-size: 40px;
+  color:rgb(51, 166, 212);
+  margin-bottom: 30px; 
+}
+.register form{
+margin-bottom: 40px;
+margin-left:180px;
+width: 470px;
+/* border:4px solid rgb(117, 165, 177); */
+border-radius: 8px;
+box-shadow: 6px  6px  rgb(101, 101, 101);
+padding: 40px;
+background-color:  rgb(224, 234, 243);
+}
+label{
+    width: 900px;
+    font-weight: strong;
+}
+input[type="text"],
+input[type="number"]{
+    width: 220px;
+    border-radius: 4px;
+}
+input[type="number"]{
+    margin-bottom: 20px;
+}
+button[type="submit"],
+button[type="reset"]{
+    width: 100px;
+    height: 40px;
+    margin-right: 45px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(37, 185, 185);
+}
+button:hover{
+    text-decoration: dashed;
+     background-color: rgb(23, 98, 98);
+}
+footer {
+  background-color: #e0e0e0;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 2px solid #90a4ae;
+  margin-top: 20px;
+}
+
+
