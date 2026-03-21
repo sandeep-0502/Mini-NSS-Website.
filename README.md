@@ -12,9 +12,3 @@ This is a mini NSS (National Service Scheme) website built to showcase activitie
 ## 🛠 Tech Stack
 - HTML
 - CSS
-
-## 📸 Screenshots
-(Add screenshots later)
-
-## 🔗 Live Demo
-(Will add after deployment)
